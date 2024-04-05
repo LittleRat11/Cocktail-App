@@ -16,8 +16,8 @@ async function fetchCocktail() {
             .then(result => result.json())
             .then(data => {
 
-                console.log(data);
-
+               
+                userInput.value = "";
                 let index = 0;
                 let drink = data.drinks[index];
 
